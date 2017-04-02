@@ -39,7 +39,7 @@ packstack --gen-answer-file==filename
 两个bug的review链接：
 
 - [https://review.openstack.org/#/c/440258/](https://review.openstack.org/#/c/440258/)
-- [https://review.openstack.org/#/c/440258/](https://review.openstack.org/442551)
+- [https://review.openstack.org/442551](https://review.openstack.org/442551)
 
 照着review提交的内容修改一下就可以了。接着使用下面的命令安装openstack。
 
