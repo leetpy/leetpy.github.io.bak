@@ -55,6 +55,6 @@ pre{
     }
 }
 
-.container-fluid p {
+p, pre {
     width: 85%;
 }
