@@ -54,3 +54,7 @@ pre{
         margin-left: 0px;
     }
 }
+
+.container-fluid p {
+    width: 85%;
+}
