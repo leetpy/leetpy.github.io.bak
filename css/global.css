@@ -55,6 +55,6 @@ pre{
     }
 }
 
-p, pre {
+p, pre, li {
     width: 85%;
 }
