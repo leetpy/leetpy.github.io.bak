@@ -27,7 +27,7 @@ yum -y install openstack-packstack
 ### 生成answer-file
 
 ```shell
-packstack --gen-answer-file==filename
+packstack --gen-answer-file=filename
 ```
 
 ### 安装openstack
