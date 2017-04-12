@@ -10,7 +10,15 @@ description: packstack安装openstack.
 
 ## 环境准备
 
-这里我们以CentOS7为例，安装openstack ocata版本，其它版本安装方法类似。
+这里我们以CentOS7为例，安装openstack ocata版本，其它版本安装方法类似。packstack目前对NetworkManager还不支持，我们修改下配置：
+```shell
+systemctl disable firewalld
+systemctl stop firewalld
+systemctl disable NetworkManager
+systemctl stop NetworkManager
+systemctl enable network
+systemctl start network
+```
 
 ### 添加packstack yum源
 
